@@ -6,6 +6,7 @@ pipeline{
  echo " my first pipeline"
  sh 'python --version'
  sh 'python pipeline.y'
+ print ('Hi')
 }
 }
 }
